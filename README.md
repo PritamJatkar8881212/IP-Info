@@ -1,31 +1,78 @@
-# 🌍 IP Location Tracker
+# 🌍 IP Info App
 
-A simple Node.js + Express backend that tracks and logs the location of a user visiting your website using their **IP address**.
+A lightweight web app that displays your public IP address and detailed geolocation info — such as city, region, country, timezone, and ISP.
 
-This project uses [ipinfo.io](https://ipinfo.io) to fetch IP-based geolocation data, without requiring any permission from the user.
-
----
-
-## 🔗 Live Demo
-
-👉 [https://ip-info-gt8c.onrender.com](https://ip-info-gt8c.onrender.com)
+🔗 **Live Demo**: [https://ip-info-ne6g.onrender.com](https://ip-info-ne6g.onrender.com)
 
 ---
 
-## 📦 Tech Stack
+## ✨ Features
 
-- **Node.js**
-- **Express.js**
-- **dotenv**
-- Built-in `fetch` (Node 18+)
-- [ipinfo.io](https://ipinfo.io) API for IP geolocation
+- 🌐 Shows your public IP address
+- 🗜️ Displays location data (city, region, country)
+- 🛸 Shows ISP and timezone
+- ⚡ Fast and minimal interface
+- 🛠️ Built with Node.js and Express
 
 ---
 
-## 🛠️ Setup Instructions
+## 🧰 Tech Stack
 
-### 1. Clone the Repository
+- **Backend**: Node.js, Express
+- **API**: IP Geolocation API (e.g. `ip-api`, `ipinfo.io`)
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── .gitignore         # Files/folders ignored by Git
+├── README.md          # Project documentation
+├── package.json       # Project metadata and scripts
+├── package-lock.json  # Dependency lock file
+└── server.js          # Main server file (Express backend)
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ip-location-tracker.git
-cd ip-location-tracker
+git clone https://github.com/PritamJatkar8881212/ip-info.git
+cd ip-info
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the server
+
+```bash
+node server.js
+```
+
+> App will be running at: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🧑‍💻 Author
+
+- GitHub: [@PritamJatkar8881212](https://github.com/PritamJatkar8881212)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. Feel free to use, modify, and share!
+
+---
+
+## 💬 Feedback
+
+Suggestions or improvements? [Open an issue](https://github.com/PritamJatkar8881212/ip-info/issues) or drop a ⭐ if you like it!

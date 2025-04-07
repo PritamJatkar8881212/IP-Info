@@ -10,7 +10,7 @@ const PORT = 3000;
 
 app.get('/', async (req, res) => {
     // Get the user's IP address (behind proxy or not)
-    const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+    let ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
     ip = ip.split(',')[0].trim(); // 👈 take only the first IP
 
     try {
